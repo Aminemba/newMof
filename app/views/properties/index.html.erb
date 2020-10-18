@@ -1,6 +1,13 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Properties</h1>
+<div class="d-flex flex-column align-items-center mt-3">
+  <div class="col-xl-7 col-lg-8 col-md-10 col-sm-11 post-card">
+    <div class="card">
+      <div class="card-header">
+        Properties
+      </div>
+      <div class="card-body">
+
 
 <table>
   <thead>
@@ -23,8 +30,8 @@
         <td><%= property.building_age %></td>
         <td><%= property.remarks %></td>
         <td><%= link_to 'Show', property , class: "btn btn-primary" %></td>
-        <td><%= link_to 'Edit', edit_property_path(property) , class: "btn btn-primary"  %></td>
-        <td><%= link_to 'Destroy', property, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Edit', edit_property_path(property) , class: "btn btn-primary"  %></td> 
+        <td><%= link_to 'Destroy', property, method: :delete, data: { confirm: 'Are you sure?' } , class: "btn "%></td>
       </tr>
     <% end %>
   </tbody>
@@ -32,5 +39,10 @@
 
 <br>
 <div class="actions">
-  <%= link_to 'New Property', new_property_path  %>
+  <%= link_to 'New Property', new_property_path , class: "btn btn-primary"  %>
 </div>
+
+  </div>
+    </div>
+      </div>
+        </div>
