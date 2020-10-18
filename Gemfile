@@ -7,6 +7,15 @@ gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.5'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'bulma-rails', '~> 0.9.0'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.4'
+gem 'bootstrap', '~> 4.0.0'
+gem 'faker', :require => false
+gem 'mini_racer'
+gem 'cloudinary'
+gem 'jquery-rails'
+gem 'meta-tags'
+gem 'toastr-rails'
+gem 'uglifier', '>= 1.3.0'
+gem 'dropzonejs-rails'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', '~> 1.4'
 # Use Puma as the app server
